@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-covalience-typescript",
+  "name": "eslint-config-js-ts",
   "version": "1.0.0",
-  "description": "Shareable ESLint config for Javascript and Typescript",
+  "description": "Shareable ESLint configurations for Javascript and Typescript",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -13,21 +13,21 @@
     "eslint",
     "eslintconfig",
     "javascript",
-    "typescript"
+    "typescript",
+    "code",
+    "quality"
   ],
-  "author": "Maibam Maneesana Singh",
+  "author": "Covalience",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
-    "typescript-eslint": ">= 7.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "typescript-eslint": ">= 7.0.0",
-    "@typescript-eslint/eslint-plugin": ">= 7.0.1",
-    "@typescript-eslint/parser": ">= 7.0.1",
+    "@typescript-eslint/eslint-plugin": ">= 6.21.0",
+    "@typescript-eslint/parser": ">= 6.21.0",
     "eslint": ">= 8.56.0"
   }
 }

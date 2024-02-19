@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ["./lib/base.js", "./lib/shared.js"].map(require.resolve),
+  extends: ["./lib/shared.js"].map(require.resolve),
   settings: {
     "import/resolver": {
       node: {
-        extensions: [".mjs", ".js", ".jsx", ".json", ".ts", ".tsx", ".d.ts"],
+        extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx", ".d.ts"],
       },
     },
   },

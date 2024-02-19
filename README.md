@@ -8,10 +8,7 @@ This documentation provides developers with a step-by-step guide on integrating 
 
 Install dev dependencies:
 ```
-$ npm install --save-dev git+https://github.com/maneesanamaibam/eslint-config-js-ts.git \ 
-eslint typescript \
-@typescript-eslint/parser@^6.21.0 \
-@typescript-eslint/eslint-plugin@^6.21.0
+npm install	--save-dev eslint typescript git+https://github.com/maneesanamaibam/eslint-config-js-ts.git @typescript-eslint/parser@^6.21.0 @typescript-eslint/eslint-plugin@^6.21.0 
  ```
 
 
